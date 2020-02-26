@@ -7,12 +7,8 @@ dummy repository for Share911
 - Do ```git submodule init```
 - Do ```git submodule update```
  
-Submodules where added as 
-```git submodule add git@github.com:jmarti-theinit/cypress-cucumber-examples-features.git gherkin-features```
+Use your own submodule repo doing:
 
-Use your own repo doing:
-
-```git submodule deinit gherkin-features
 git submodule add (YOUR_REPO_URL) gherkin-features
 git add --all
 git commit -m "Change repo url"
@@ -23,7 +19,7 @@ git commit -m "Change repo url"
 
 ![Parent Folder](https://i.ibb.co/Lp6zDXt/Screenshot-from-2020-02-26-11-43-14.png)
 
-# Sync Gherkin-Features (e2eTest folder) with the Tests inside the Cypress Folder. (Optional)
+# Sync Gherkin-Features (e2eTest folder) with the tests inside the Cypress Folder. (Optional)
 - npm run test:pull-features
 This will delete any Gherkin Feature files within the cypress/integration folder.
 This will not delete the cypress javascript file located within the cypress/integration/test.
