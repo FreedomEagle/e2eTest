@@ -12,7 +12,6 @@ Use your own submodule repo doing:
 git submodule add (YOUR_REPO_URL) gherkin-features
 git add --all
 git commit -m "Change repo url"
-```
 
 # Install npm (node_modules) within the Parent Folder
 - npm install npm
