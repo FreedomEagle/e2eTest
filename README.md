@@ -1,5 +1,5 @@
-# e2eTest
-dummy repository for Share911 
+# e2e
+End-to-end testing suite for Share911 service. Relies on Share911/test-scripts repo. 
 
 ## Installing Submodule
 
