@@ -19,14 +19,14 @@ git commit -m "Change repo url"
 ![Parent Folder](https://i.ibb.co/Lp6zDXt/Screenshot-from-2020-02-26-11-43-14.png)
 
 # Sync Gherkin-Features (e2eTest folder) with the tests inside the Cypress Folder. (Optional)
-- npm run test:pull-features
-This will delete any Gherkin Feature files within the cypress/integration folder.
-This will not delete the cypress javascript file located within the cypress/integration/test.
-This will make sure only the tests within the Gherkin-Features will show up during the test run.
+- npm run test:pull-features  
+This will delete any Gherkin Feature files within the cypress/integration folder.  
+This will not delete the cypress javascript file located within the cypress/integration/test.  
+This will make sure only the tests within the Gherkin-Features will show up during the test run.  
 
 # Run Tests Through any of These Modes.
--npm run cypress:open:prod
--npm run cypress:open:local
--npm run test:prod
--npm run test:local
+-npm run cypress:open:prod  
+-npm run cypress:open:local  
+-npm run test:prod  
+-npm run test:local  
 
