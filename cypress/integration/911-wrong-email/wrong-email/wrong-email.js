@@ -16,6 +16,7 @@ Given(/^I press forgot password$/,()=>{
 })
 
 When(/^I input 'myEmail@email.com'$/,() => {
+  cy.wait(1000)
   SearchPage.type('myEmail@email.com')
 });
 

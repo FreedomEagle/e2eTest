@@ -1,5 +1,4 @@
 import ResultsPage from './911-wrong-email';
-
 const EMAIL_FIELD = 'input[name=email]';
 const GET_SHARE_911 = 'https://getshare911.com/';
 const MAIN_CONTENT = '.main-content';
